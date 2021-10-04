@@ -17,14 +17,14 @@ function InsertForm({ onInsert }) {
   return (
     <form className="insert-form" onSubmit={handleSubmit}>
       <label className="label">
-        <span>Име</span>
+        <span className="span-name">Ime</span>
         <input type="text" name="name" onChange={handleInputChange}></input>
       </label>
       <label className="label">
-        <span>Број телефона</span>
+        <span>Broj Telefona</span>
         <input type="text" name="phone" onChange={handleInputChange}></input>
       </label>
-      <button type="submit">Додај</button>
+      <button type="submit">Dodaj kontakt</button>
     </form>
   );
 }

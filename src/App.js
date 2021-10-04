@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">Именик</header>
+      <header className="App-header">Imenik</header>
       <InsertForm onInsert={addNew} />
       <Contacts list={list} onDelete={deleteContact} />
     </div>

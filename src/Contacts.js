@@ -6,8 +6,8 @@ function List({ list, onDelete }) {
       <table>
         <thead>
           <tr>
-            <th>Име</th>
-            <th>Телефон</th>
+            <th>Ime</th>
+            <th>Telefon</th>
           </tr>
         </thead>
         <tbody>
